@@ -1,4 +1,4 @@
-@media only screen and (min-width: 480px), (min-width: 768px),(min-width: 1024px) and (max-width:1024px) {
+@media only screen and (min-width: 480px) and (max-width:1024px) {
     #calculator{
         margin: 0 auto;
         width: 40%;
@@ -86,25 +86,4 @@
     .text{
         margin-top: 2%;
     }
-}
-#calculator{
-    margin: 0 auto;
-    width: 60%;
-    border: solid 5px black;
-    border-radius: 10px;
-    background-color: gray;
-    color: white;
-}
-h1{
-    text-align: center;
-}
-html{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: wheat;
-}
-#submit{
-    margin: 10px 30%;
-}
-label, input{
-    margin-left: 3%;
 }
