@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Grade Calculator</title>
 </head>
 <body>
@@ -10,20 +11,20 @@
         <h1>Grade Calculator</h1>
     </header>
     <main>
-        <form action="POST">
+        <form action="POST" id="calculator">
             <label for="exam-grades">Exam grades: (separated by comas)</label>
             <br>
-            <input type="text" name="exam-grades" id="exam-grades" required>
+            <input type="text" name="exam-grades" id="exam-grades" required class="text">
             <br>
             <label for="portfolio-grades">Portfolio grades: (separated by comas)</label>
             <br>
-            <input type="text" name="portfolio-grades" id="portfolio-grades" required>
+            <input type="text" name="portfolio-grades" id="portfolio-grades" required class="text">
             <br>
             <label for="finalEx-grade">Final exam grade: (optional)</label>
             <br>
-            <input type="text" name="finalEx-grade" id="finalEx-grade">
+            <input type="text" name="finalEx-grade" id="finalEx-grade" class="text">
             <br>
-            <input type="submit" value="Calculate">
+            <input type="submit" value="Calculate" id="submit">
         </form>
     </main>
     <footer>

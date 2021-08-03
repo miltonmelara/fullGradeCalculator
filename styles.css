@@ -1,0 +1,89 @@
+@media only screen and (min-width: 480px), (min-width: 768px),(min-width: 1024px) and (max-width:1024px) {
+    #calculator{
+        margin: 0 auto;
+        width: 40%;
+        border: solid 5px black;
+        border-radius: 10px;
+        background-color: gray;
+        color: white;
+    }
+    h1{
+        text-align: center;
+    }
+    html{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: wheat;
+    }
+    #submit{
+        margin: 10px 30%;
+    }
+    label, input{
+        margin-left: 3%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width:1600px) {
+    #calculator{
+        margin: 0 auto;
+        width: 40%;
+        border: solid 5px black;
+        border-radius: 10px;
+        background-color: gray;
+        color: white;
+        height: 350px;
+        font-size: 1.2rem;
+    }
+    h1{
+        text-align: center;
+    }
+    html{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: wheat;
+    }
+    #submit{
+        margin: 10px 35%;
+        width: 30%;
+        height: 10%;
+        border-radius: 7px;
+        font-size: 1.5rem;
+    }
+    label, input{
+        margin-left: 3%;
+        margin-bottom: 7.5%;
+    }
+    .text{
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 1600px){
+    #calculator{
+        margin: 0 auto;
+        width: 40%;
+        border: solid 5px black;
+        border-radius: 10px;
+        background-color: gray;
+        color: white;
+        height: 350px;
+        font-size: 1.6rem;
+    }
+    h1{
+        text-align: center;
+    }
+    html{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: wheat;
+    }
+    #submit{
+        margin: 10px 35%;
+        width: 30%;
+        height: 10%;
+        border-radius: 7px;
+        font-size: 1.5rem;
+    }
+    label, input{
+        margin-left: 3%;
+        margin-bottom: 5%;
+    }
+    .text{
+        margin-top: 3%;
+    }
+}
