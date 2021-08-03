@@ -87,3 +87,24 @@
         margin-top: 2%;
     }
 }
+#calculator{
+    margin: 0 auto;
+    width: 40%;
+    border: solid 5px black;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: wheat;
+}
+#submit{
+    margin: 10px 30%;
+}
+label, input{
+    margin-left: 3%;
+}
