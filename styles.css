@@ -108,3 +108,6 @@ html{
 label, input{
     margin-left: 3%;
 }
+.text{
+    width: 50%;
+}
