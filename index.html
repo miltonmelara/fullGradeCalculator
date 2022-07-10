@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js" defer></script>
     <title>Grade Calculator</title>
 </head>
 <body>
     <header>
-        <h1>Grade Calculator</h1>
+        <h1 id="title">Grade Calculator</h1>
     </header>
     <main>
-        <form action="POST" id="calculator">
+        <form id="calculator">
             <label for="exam-grades">Exam grades: (separated by comas)</label>
             <br>
             <input type="text" name="exam-grades" id="exam-grades" required class="text">
@@ -22,11 +23,15 @@
             <br>
             <label for="finalEx-grade">Final exam grade: (optional)</label>
             <br>
-            <input type="text" name="finalEx-grade" id="finalEx-grade" class="text">
+            <input type="number" name="finalEx-grade" id="finalEx-grade" class="text">
             <br>
-            <input type="submit" value="Calculate" id="submit">
+            <button id="submit" onClick="setValue()">Submit</button>
         </form>
     </main>
+    <div>
+        <h2>Results</h2>
+        <p id="results"></p>
+    </div>
     <footer>
 
     </footer>
